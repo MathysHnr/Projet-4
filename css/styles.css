@@ -1,0 +1,120 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+header {
+  display: flex;
+  width: 100%;
+  height: 113px;
+  padding-bottom: 0px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+header .header__logo {
+  width: 197px;
+  height: 36px;
+  padding: 0px 19px 0px 16px;
+  flex-shrink: 0;
+}
+
+nav {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 50px;
+  justify-content: center;
+  align-items: center;
+  gap: 17px;
+  flex-shrink: 0;
+  margin-top: 13px;
+  background-color: #eaeaea;
+}
+nav .nav__localisation {
+  font-family: "Roboto";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.recherche {
+  padding-bottom: 40px;
+  background-color: #f6f6f6;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-family: "Roboto";
+  font-style: normal;
+  line-height: normal;
+}
+.recherche .recherche__titre {
+  margin-bottom: -8px;
+  width: 80%;
+  height: 68px;
+  color: #000;
+  font-size: 24px;
+  font-weight: 700;
+}
+.recherche .recherche__p {
+  height: 46px;
+  color: #353535;
+  font-size: 18px;
+  font-weight: 300;
+}
+.recherche .recherche__button {
+  margin-top: 15px;
+  width: 218px;
+  height: 50px;
+  border: none;
+  border-radius: 25px;
+  background: var(--Button-Gradient, linear-gradient(193deg, #9356dc -11.44%, #ff79da 123.93%));
+  box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.25);
+  color: #fff;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.fonctionnement {
+  display: flex;
+  flex-direction: column;
+}
+.fonctionnement .fonctionnement__choix {
+  display: flex;
+  flex-direction: row;
+  background-color: white;
+  margin: 1rem;
+  padding: 1rem;
+  box-shadow: 4px 4px 2px lightgrey;
+  border-radius: 20px 20px;
+  text-align: center;
+  height: 4rem;
+  line-height: 2rem;
+  white-space: nowrap;
+}
+.fonctionnement .fonctionnement__numtxt {
+  border-radius: 50%;
+  background-color: #9356dc;
+  color: white;
+  position: relative;
+  right: 28px;
+  padding: 2px 10px;
+}
+.fonctionnement .fonctionnement__num1 {
+  position: relative;
+  bottom: 17px;
+}
+.fonctionnement .fonctionnement__txt {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 15px;
+}
+
+/*# sourceMappingURL=styles.css.map */
