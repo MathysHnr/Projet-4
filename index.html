@@ -7,7 +7,8 @@
     <title>ohmyfood</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;500;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;500;700&family=Shrikhand&display=swap"
+        rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
         integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
@@ -16,7 +17,9 @@
 
 <body>
     <header>
-        <img src="Images/images/logo/ohmyfood.png" alt="logo ohmyfood" class="header__logo" />
+        <div class="header">
+            <img src="Images/images/logo/ohmyfood@2x.svg" alt="logo ohmyfood" class="header__logo" />
+        </div>
         <nav>
             <div class="nav__locationdot">
                 <i class="fa-solid fa-location-dot fa-lg"></i>
@@ -28,9 +31,11 @@
         <section class="recherche">
             <h1 class="recherche__titre">Réservez le menu qui vous convient</h1>
             <p class="recherche__p">Découvrez des restaurants d'exception, sélectionnés par nos soins</p>
-            <button class="recherche__button">
-                <span class="submittxt">Explorer nos restaurants</span>
-            </button>
+            <a href="#">
+                <button class="recherche__button">
+                    <span class="submittxt">Explorer nos restaurants</span>
+                </button>
+            </a>
         </section>
         <section class="fonctionnement">
             <h2 class="fonctionnement__titre">Fonctionnement</h2>
@@ -62,7 +67,95 @@
                 </span>
             </div>
         </section>
+        <section class="restaurants">
+            <h2 class="restaurants__title">Restaurants</h2>
+            <a href="#">
+                <div class="restaurants__card">
+                    <div class="restaurants__cardimg">
+                        <div class="restaurants__cardimg__newcard">
+                            <p>Nouveau</p>
+                        </div>
+                        <img src="./Images/images/restaurants/jay-wennington-N_Y88TWmGwA-unsplash.jpg"
+                            alt="Table restaurant" class="restaurants__img">
+                    </div>
+                    <div class="restaurants__cardtcontent">
+                        <div class="restaurants__cardtxt">
+                            <h3 class="restaurants__subtitle">La palette du goût</h3>
+                            <p class="restaurants__p">Ménilmontant</p>
+                        </div>
+                        <div class="restaurants__cardlike">
+                            <i class="fa-regular fa-heart fa-2xl" style="color: #000000;"></i>
+                        </div>
+                    </div>
+                </div>
+            </a>
+            <a href="#">
+                <div class="restaurants__card">
+                    <div class="restaurants__cardimg">
+                        <div class="restaurants__cardimg__newcard">
+                            <p>Nouveau</p>
+                        </div>
+                        <img src="./Images/images/restaurants/stil-u2Lp8tXIcjw-unsplash.jpg" alt="Table restaurant"
+                            class="restaurants__img">
+                    </div>
+                    <div class="restaurants__cardtcontent">
+                        <div class="restaurants__cardtxt">
+                            <h3 class="restaurants__subtitle">La note enchantée</h3>
+                            <p class="restaurants__p">Charonne</p>
+                        </div>
+                        <div class="restaurants__cardlike">
+                            <i class="fa-regular fa-heart fa-2xl" style="color: #000000;"></i>
+                        </div>
+                    </div>
+                </div>
+            </a>
+            <a href="#">
+                <div class="restaurants__card">
+                    <img src="./Images/images/restaurants/toa-heftiba-DQKerTsQwi0-unsplash.jpg" alt="Table restaurant"
+                        class="restaurants__img">
+                    <div class="restaurants__cardtcontent">
+                        <div class="restaurants__cardtxt">
+                            <h3 class="restaurants__subtitle">À la française</h3>
+                            <p class="restaurants__p">Cité Rouge</p>
+                        </div>
+                        <div class="restaurants__cardlike">
+                            <i class="fa-regular fa-heart fa-2xl" style="color: #000000;"></i>
+                        </div>
+                    </div>
+                </div>
+            </a>
+            <a href="#">
+                <div class="restaurants__card">
+                    <img src="./Images/images/restaurants/louis-hansel-shotsoflouis-qNBGVyOCY8Q-unsplash.jpg"
+                        alt="Table restaurant" class="restaurants__img">
+                    <div class="restaurants__cardtcontent">
+                        <div class="restaurants__cardtxt">
+                            <h3 class="restaurants__subtitle">Le délice des sens</h3>
+                            <p class="restaurants__p">Ménilmontant</p>
+                        </div>
+                        <div class="restaurants__cardlike">
+                            <i class="fa-regular fa-heart fa-2xl" style="color: #000000;"></i>
+                        </div>
+                    </div>
+                </div>
+            </a>
+        </section>
     </main>
+    <footer>
+        <h2 class="footer__title">ohmyfood</h2>
+        <article class="footer__link">
+            <div class="footerlink__icon">
+                <i class="fa-solid fa-utensils" style="color: #ffffff;"></i>
+                <a href="#" class="footer__link__a">Porposer un restaurant</a>
+            </div>
+            <div class="footerlink__icon">
+                <i class="fa-solid fa-handshake" style="color: #ffffff;"></i>
+                <a href="#" class="footer__link__a">Devenir partenaire</a>
+            </div>
+            <a href="#" class="footer__link__a">Mentions légales</a>
+            <a href="#" class="footer__link__a">Contact</a>
+        </article>
+    </footer>
 </body>
 
 </html>
