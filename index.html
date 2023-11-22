@@ -12,10 +12,17 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
         integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="./css/styles.css" />
+    <link rel="stylesheet" href="./scss/styles.css" />
 </head>
 
 <body>
+    <div class="loader">
+    <div class="loader__itemContainer">
+        <div class="loader__item loader__item--1"></div>
+        <div class="loader__item loader__item--2"></div>
+        <div class="loader__item loader__item--3"></div>
+    </div>
+</div>
     <header>
         <div class="header">
             <img src="Images/images/logo/ohmyfood@2x.svg" alt="logo ohmyfood" class="header__logo" />
@@ -31,114 +38,126 @@
         <section class="recherche">
             <h1 class="recherche__titre">Réservez le menu qui vous convient</h1>
             <p class="recherche__p">Découvrez des restaurants d'exception, sélectionnés par nos soins</p>
-            <a href="#">
+            <a href="#restaurants" class="recherche__link">
                 <button class="recherche__button">
                     <span class="submittxt">Explorer nos restaurants</span>
                 </button>
             </a>
         </section>
         <section class="fonctionnement">
-            <h2 class="fonctionnement__titre">Fonctionnement</h2>
-            <div class="fonctionnement__choix">
-                <div class="fonctionnement__numtxt">
-                    <p class="fonctionnement__num1">1</p>
+            <div class="fonctionnement__liste">
+                <h2 class="fonctionnement__titre">Fonctionnement</h2>
+                <div class="fonctionnement__row">
+                    <div class="fonctionnement__choix">
+                        <div class="fonctionnement__numtxt">
+                            <p class="fonctionnement__num1">1</p>
+                        </div>
+                        <span class="fonctionnement__txt">
+                            <i class="fas fa-mobile-alt" aria-hidden="true"></i>
+                            <p>Choisissez votre restaurant</p>
+                        </span>
+                    </div>
+                    <div class="fonctionnement__choix">
+                        <div class="fonctionnement__numtxt">
+                            <p class="fonctionnement__num1">2</p>
+                        </div>
+                        <span class="fonctionnement__txt">
+                            <i class="fas fa-list-ul" aria-hidden="true"></i>
+                            <p>Composez votre menu</p>
+                        </span>
+                    </div>
+                    <div class="fonctionnement__choix">
+                        <div class="fonctionnement__numtxt">
+                            <p class="fonctionnement__num1">3</p>
+                        </div>
+                        <span class="fonctionnement__txt">
+                            <i class="fas fa-store" aria-hidden="true"></i>
+                            <p>Dégustez au restaurant</p>
+                        </span>
+                    </div>
                 </div>
-                <span class="fonctionnement__txt">
-                    <i class="fas fa-mobile-alt" aria-hidden="true"></i>
-                    <p>Choisissez votre restaurant</p>
-                </span>
-            </div>
-            <div class="fonctionnement__choix">
-                <div class="fonctionnement__numtxt">
-                    <p class="fonctionnement__num1">2</p>
-                </div>
-                <span class="fonctionnement__txt">
-                    <i class="fas fa-list-ul" aria-hidden="true"></i>
-                    <p>Composez votre menu</p>
-                </span>
-            </div>
-            <div class="fonctionnement__choix">
-                <div class="fonctionnement__numtxt">
-                    <p class="fonctionnement__num1">3</p>
-                </div>
-                <span class="fonctionnement__txt">
-                    <i class="fas fa-store" aria-hidden="true"></i>
-                    <p>Dégustez au restaurant</p>
-                </span>
             </div>
         </section>
-        <section class="restaurants">
-            <h2 class="restaurants__title">Restaurants</h2>
-            <a href="#">
-                <div class="restaurants__card">
-                    <div class="restaurants__cardimg">
-                        <div class="restaurants__cardimg__newcard">
-                            <p>Nouveau</p>
+        <section class="restaurants" id="restaurants">
+            <div class="restaurants__grid">
+                <h2 class="restaurants__title">Restaurants</h2>
+                <div class="restaurants__wrap">
+                    <a href="Lapalettedugout.html" class="restaurants__link">
+                        <div class="restaurants__card">
+                            <div class="restaurants__cardimg">
+                                <div class="restaurants__cardimg__newcard">
+                                    <p>Nouveau</p>
+                                </div>
+                                <img src="./Images/images/restaurants/jay-wennington-N_Y88TWmGwA-unsplash.jpg"
+                                    alt="Table restaurant" class="restaurants__img">
+                            </div>
+                            <div class="restaurants__cardtcontent">
+                                <div class="restaurants__cardtxt">
+                                    <h3 class="restaurants__subtitle">La palette du goût</h3>
+                                    <p class="restaurants__p">Ménilmontant</p>
+                                </div>
+                                <div class="restaurants__cardlike">
+                                    <i class="fa-regular fa-heart fa-2xl restaurants__like" aria-hidden="true"></i>
+                                    <i class="fa-solid fa-heart fa-2xl restaurants__likehover" aria-hidden="true"></i>
+                                </div>
+                            </div>
                         </div>
-                        <img src="./Images/images/restaurants/jay-wennington-N_Y88TWmGwA-unsplash.jpg"
-                            alt="Table restaurant" class="restaurants__img">
-                    </div>
-                    <div class="restaurants__cardtcontent">
-                        <div class="restaurants__cardtxt">
-                            <h3 class="restaurants__subtitle">La palette du goût</h3>
-                            <p class="restaurants__p">Ménilmontant</p>
+                    </a>
+                    <a href="La note enchantée.html" class="restaurants__link">
+                        <div class="restaurants__card">
+                            <div class="restaurants__cardimg">
+                                <div class="restaurants__cardimg__newcard">
+                                    <p>Nouveau</p>
+                                </div>
+                                <img src="./Images/images/restaurants/stil-u2Lp8tXIcjw-unsplash.jpg"
+                                    alt="Table restaurant" class="restaurants__img">
+                            </div>
+                            <div class="restaurants__cardtcontent">
+                                <div class="restaurants__cardtxt">
+                                    <h3 class="restaurants__subtitle">La note enchantée</h3>
+                                    <p class="restaurants__p">Charonne</p>
+                                </div>
+                                <div class="restaurants__cardlike">
+                                    <i class="fa-regular fa-heart fa-2xl restaurants__like" aria-hidden="true"></i>
+                                    <i class="fa-solid fa-heart fa-2xl restaurants__likehover" aria-hidden="true"></i>
+                                </div>
+                            </div>
                         </div>
-                        <div class="restaurants__cardlike">
-                            <i class="fa-regular fa-heart fa-2xl" style="color: #000000;"></i>
+                    </a>
+                    <a href="À la française.html" class="restaurants__link">
+                        <div class="restaurants__card">
+                            <img src="./Images/images/restaurants/toa-heftiba-DQKerTsQwi0-unsplash.jpg"
+                                alt="Table restaurant" class="restaurants__img">
+                            <div class="restaurants__cardtcontent">
+                                <div class="restaurants__cardtxt">
+                                    <h3 class="restaurants__subtitle">À la française</h3>
+                                    <p class="restaurants__p">Cité Rouge</p>
+                                </div>
+                                <div class="restaurants__cardlike">
+                                    <i class="fa-regular fa-heart fa-2xl restaurants__like" aria-hidden="true"></i>
+                                    <i class="fa-solid fa-heart fa-2xl restaurants__likehover" aria-hidden="true"></i>
+                                </div>
+                            </div>
                         </div>
-                    </div>
+                    </a>
+                    <a href="Le délice des sens.html" class="restaurants__link">
+                        <div class="restaurants__card">
+                            <img src="./Images/images/restaurants/louis-hansel-shotsoflouis-qNBGVyOCY8Q-unsplash.jpg"
+                                alt="Table restaurant" class="restaurants__img">
+                            <div class="restaurants__cardtcontent">
+                                <div class="restaurants__cardtxt">
+                                    <h3 class="restaurants__subtitle">Le délice des sens</h3>
+                                    <p class="restaurants__p">Ménilmontant</p>
+                                </div>
+                                <div class="restaurants__cardlike">
+                                    <i class="fa-regular fa-heart fa-2xl restaurants__like" aria-hidden="true"></i>
+                                    <i class="fa-solid fa-heart fa-2xl restaurants__likehover" aria-hidden="true"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
                 </div>
-            </a>
-            <a href="#">
-                <div class="restaurants__card">
-                    <div class="restaurants__cardimg">
-                        <div class="restaurants__cardimg__newcard">
-                            <p>Nouveau</p>
-                        </div>
-                        <img src="./Images/images/restaurants/stil-u2Lp8tXIcjw-unsplash.jpg" alt="Table restaurant"
-                            class="restaurants__img">
-                    </div>
-                    <div class="restaurants__cardtcontent">
-                        <div class="restaurants__cardtxt">
-                            <h3 class="restaurants__subtitle">La note enchantée</h3>
-                            <p class="restaurants__p">Charonne</p>
-                        </div>
-                        <div class="restaurants__cardlike">
-                            <i class="fa-regular fa-heart fa-2xl" style="color: #000000;"></i>
-                        </div>
-                    </div>
-                </div>
-            </a>
-            <a href="#">
-                <div class="restaurants__card">
-                    <img src="./Images/images/restaurants/toa-heftiba-DQKerTsQwi0-unsplash.jpg" alt="Table restaurant"
-                        class="restaurants__img">
-                    <div class="restaurants__cardtcontent">
-                        <div class="restaurants__cardtxt">
-                            <h3 class="restaurants__subtitle">À la française</h3>
-                            <p class="restaurants__p">Cité Rouge</p>
-                        </div>
-                        <div class="restaurants__cardlike">
-                            <i class="fa-regular fa-heart fa-2xl" style="color: #000000;"></i>
-                        </div>
-                    </div>
-                </div>
-            </a>
-            <a href="#">
-                <div class="restaurants__card">
-                    <img src="./Images/images/restaurants/louis-hansel-shotsoflouis-qNBGVyOCY8Q-unsplash.jpg"
-                        alt="Table restaurant" class="restaurants__img">
-                    <div class="restaurants__cardtcontent">
-                        <div class="restaurants__cardtxt">
-                            <h3 class="restaurants__subtitle">Le délice des sens</h3>
-                            <p class="restaurants__p">Ménilmontant</p>
-                        </div>
-                        <div class="restaurants__cardlike">
-                            <i class="fa-regular fa-heart fa-2xl" style="color: #000000;"></i>
-                        </div>
-                    </div>
-                </div>
-            </a>
+            </div>
         </section>
     </main>
     <footer>
