@@ -379,15 +379,24 @@ footer {
   position: relative;
   margin-top: -50px;
   padding: 5px 20px;
+  @media screen and (min-width: 1024px) {
+    padding : 5px 170px;
+    margin: -50px 170px 0;
+  }
   .menu__container {
     margin: auto;
     max-width: 1440px;
+    padding-top: 20px;
   }
   .menu__header {
     font-family: "Shrikhand", cursive;
     font-size: 18px;
     display: flex;
     justify-content: space-between;
+    @media screen and (min-width: 1024px) {
+      justify-content: center;
+      gap: 20px;
+    }
     .menu__cardlike {
       display: flex;
       align-items: center;
@@ -586,9 +595,6 @@ footer {
   100% {
     transform: translateY(0);
   }
-  // 0% {
-  //   transform: translateY(0);
-  // }
 }
 
 

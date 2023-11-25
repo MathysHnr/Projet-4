@@ -394,15 +394,28 @@ footer .footer__link__a {
   margin-top: -50px;
   padding: 5px 20px;
 }
+@media screen and (min-width: 1024px) {
+  .menu {
+    padding: 5px 170px;
+    margin: -50px 170px 0;
+  }
+}
 .menu .menu__container {
   margin: auto;
   max-width: 1440px;
+  padding-top: 20px;
 }
 .menu .menu__header {
   font-family: "Shrikhand", cursive;
   font-size: 18px;
   display: flex;
   justify-content: space-between;
+}
+@media screen and (min-width: 1024px) {
+  .menu .menu__header {
+    justify-content: center;
+    gap: 20px;
+  }
 }
 .menu .menu__header .menu__cardlike {
   display: flex;
