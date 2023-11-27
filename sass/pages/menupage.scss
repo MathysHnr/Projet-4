@@ -1,0 +1,141 @@
+.menu {
+  border-radius: 40px 40px 0 0;
+  background-color: #f6f6f6;
+  position: relative;
+  margin-top: -50px;
+  padding: 5px 20px;
+  @media screen and (min-width: 1024px) {
+    padding : 5px 170px;
+    margin: -50px 170px 0;
+  }
+  .menu__container {
+    margin: auto;
+    max-width: 1440px;
+    padding-top: 20px;
+  }
+  .menu__header {
+    font-family: "Shrikhand", cursive;
+    font-size: 18px;
+    display: flex;
+    justify-content: space-between;
+    @media screen and (min-width: 1024px) {
+      justify-content: center;
+      gap: 20px;
+    }
+  }
+  .menu__listes {
+    flex-direction: column;
+    padding-bottom: 40px;
+    gap: 15px;
+    display: flex;
+  }
+  .menu__liste {
+    width: 100%;
+  }
+  h3 {
+    font-size: 16px;
+    font-weight: 300;
+    text-transform: uppercase;
+    position: relative;
+    margin: 20px 0 22px 6px;
+    &::after {
+      content: "";
+      width: 40px;
+      height: 3px;
+      background-color: #99e2d0;
+      position: absolute;
+      left: 0;
+      top: 24px;
+    }
+  }
+  .menu__platcard {
+    display: flex;
+    justify-content: space-between;
+    border-radius: 15.043px;
+    background: var(--White, #fff);
+    box-shadow: 0px 4.01149px 15.0431px 0px rgba(0, 0, 0, 0.1);
+    align-items: flex-end;
+    padding: 15px;
+    overflow: hidden;
+    width: 100%;
+    position: relative;
+    margin: 0 15px 15px 0;
+    -webkit-animation: menu-listes 1s ease both;
+    animation: menu-listes 1s ease both;
+    &:hover {
+      .menu__cardorder {
+        transform: translateX(0px);
+        transition: 0.5s ease-in-out;
+      }
+      .menu__cardprice {
+        margin-right: 60px;
+      }
+    }
+  }
+  .menu__cardcontent {
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+  }
+  h4 {
+    margin: 0;
+    padding-bottom: 5px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+  }
+  p {
+    margin: 0;
+    font-size: 0.85rem;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+  }
+  .menu__cardprice {
+    font-weight: 700;
+    font-size: 14px;
+    color: #353535;
+    transition: 0.5s ease-in-out;
+  }
+  .menu__cardorder {
+    position: absolute;
+    background-color: #99e2d0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    width: 65px;
+    transform-origin: right 50%;
+    transform: translateX(65px);
+    overflow: hidden;
+    transition-duration: 0.5s;
+  }
+  .menu__validation {
+    position: absolute;
+    left: 20px;
+    top: 25px;
+    font-size: 1.5rem;
+    color: white;
+    opacity: 1;
+  }
+}
+
+.menu__platcard:nth-child(1) {
+    -webkit-animation-delay: 0.3s;
+    animation-delay: 0.3s;
+  }
+  .menu__platcard:nth-child(2) {
+    -webkit-animation-delay: 0.6s;
+    animation-delay: 0.6s;
+  }
+  .menu__platcard:nth-child(3) {
+    -webkit-animation-delay: 0.9s;
+    animation-delay: 0.9s;
+  }
+  .menu__platcard:nth-child(4) {
+    -webkit-animation-delay: 1.2s;
+    animation-delay: 1.2s;
+  }
+  .menu__platcard:nth-child(5) {
+    -webkit-animation-delay: 1.5s;
+    animation-delay: 1.5s;
+  }

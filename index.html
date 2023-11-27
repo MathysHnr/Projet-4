@@ -12,17 +12,17 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
         integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="./scss/styles.css" />
+    <link rel="stylesheet" href="./css/styless.css" />
 </head>
 
 <body>
     <div class="loader">
-    <div class="loader__itemContainer">
-        <div class="loader__item loader__item--1"></div>
-        <div class="loader__item loader__item--2"></div>
-        <div class="loader__item loader__item--3"></div>
+        <div class="loader__itemContainer">
+            <div class="loader__item loader__item--1"></div>
+            <div class="loader__item loader__item--2"></div>
+            <div class="loader__item loader__item--3"></div>
+        </div>
     </div>
-</div>
     <header>
         <div class="header">
             <img src="Images/images/logo/ohmyfood@2x.svg" alt="logo ohmyfood" class="header__logo" />
@@ -38,10 +38,8 @@
         <section class="recherche">
             <h1 class="recherche__titre">Réservez le menu qui vous convient</h1>
             <p class="recherche__p">Découvrez des restaurants d'exception, sélectionnés par nos soins</p>
-            <a href="#restaurants" class="recherche__link">
-                <button class="recherche__button">
-                    <span class="submittxt">Explorer nos restaurants</span>
-                </button>
+            <a href="#restaurants" class="recherche__button">
+                <span class="submittxt">Explorer nos restaurants</span>
             </a>
         </section>
         <section class="fonctionnement">
@@ -54,7 +52,7 @@
                         </div>
                         <span class="fonctionnement__txt">
                             <i class="fas fa-mobile-alt" aria-hidden="true"></i>
-                            <p>Choisissez votre restaurant</p>
+                            Choisissez votre restaurant
                         </span>
                     </div>
                     <div class="fonctionnement__choix">
@@ -63,7 +61,7 @@
                         </div>
                         <span class="fonctionnement__txt">
                             <i class="fas fa-list-ul" aria-hidden="true"></i>
-                            <p>Composez votre menu</p>
+                            Composez votre menu
                         </span>
                     </div>
                     <div class="fonctionnement__choix">
@@ -72,7 +70,7 @@
                         </div>
                         <span class="fonctionnement__txt">
                             <i class="fas fa-store" aria-hidden="true"></i>
-                            <p>Dégustez au restaurant</p>
+                            Dégustez au restaurant
                         </span>
                     </div>
                 </div>
@@ -82,7 +80,7 @@
             <div class="restaurants__grid">
                 <h2 class="restaurants__title">Restaurants</h2>
                 <div class="restaurants__wrap">
-                    <a href="Lapalettedugout.html" class="restaurants__link">
+                    <a href="La_palette_du_gout.html" class="restaurants__link">
                         <div class="restaurants__card">
                             <div class="restaurants__cardimg">
                                 <div class="restaurants__cardimg__newcard">
@@ -103,7 +101,7 @@
                             </div>
                         </div>
                     </a>
-                    <a href="La note enchantée.html" class="restaurants__link">
+                    <a href="La_note_enchantée.html" class="restaurants__link">
                         <div class="restaurants__card">
                             <div class="restaurants__cardimg">
                                 <div class="restaurants__cardimg__newcard">
@@ -124,7 +122,7 @@
                             </div>
                         </div>
                     </a>
-                    <a href="À la française.html" class="restaurants__link">
+                    <a href="À_la_française.html" class="restaurants__link">
                         <div class="restaurants__card">
                             <img src="./Images/images/restaurants/toa-heftiba-DQKerTsQwi0-unsplash.jpg"
                                 alt="Table restaurant" class="restaurants__img">
@@ -140,7 +138,7 @@
                             </div>
                         </div>
                     </a>
-                    <a href="Le délice des sens.html" class="restaurants__link">
+                    <a href="Le_délice_des_sens.html" class="restaurants__link">
                         <div class="restaurants__card">
                             <img src="./Images/images/restaurants/louis-hansel-shotsoflouis-qNBGVyOCY8Q-unsplash.jpg"
                                 alt="Table restaurant" class="restaurants__img">
@@ -162,7 +160,7 @@
     </main>
     <footer>
         <h2 class="footer__title">ohmyfood</h2>
-        <article class="footer__link">
+        <div class="footer__link">
             <div class="footerlink__icon">
                 <i class="fa-solid fa-utensils" style="color: #ffffff;"></i>
                 <a href="#" class="footer__link__a">Proposer un restaurant</a>
@@ -172,8 +170,8 @@
                 <a href="#" class="footer__link__a">Devenir partenaire</a>
             </div>
             <a href="#" class="footer__link__a">Mentions légales</a>
-            <a href="#" class="footer__link__a">Contact</a>
-        </article>
+            <a href="mailto:ohmyfood@gmail.com" class="footer__link__a">Contact</a>
+        </div>
     </footer>
 </body>
 
