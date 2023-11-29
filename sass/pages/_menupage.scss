@@ -1,6 +1,6 @@
 .menu {
   border-radius: 40px 40px 0 0;
-  background-color: #f6f6f6;
+  background-color: $color-white;
   position: relative;
   margin-top: -50px;
   padding: 5px 20px;
@@ -42,7 +42,7 @@
       content: "";
       width: 40px;
       height: 3px;
-      background-color: #99e2d0;
+      background-color: $color-tertiary;
       position: absolute;
       left: 0;
       top: 24px;
@@ -52,7 +52,7 @@
     display: flex;
     justify-content: space-between;
     border-radius: 15.043px;
-    background: var(--White, #fff);
+    background: $color-white;
     box-shadow: 0px 4.01149px 15.0431px 0px rgba(0, 0, 0, 0.1);
     align-items: flex-end;
     padding: 15px;
@@ -94,12 +94,12 @@
   .menu__cardprice {
     font-weight: 700;
     font-size: 14px;
-    color: #353535;
+    color: $color-dark_grey;
     transition: 0.5s ease-in-out;
   }
   .menu__cardorder {
     position: absolute;
-    background-color: #99e2d0;
+    background-color: $color-tertiary;
     top: 0;
     bottom: 0;
     right: 0;
@@ -114,7 +114,7 @@
     left: 20px;
     top: 25px;
     font-size: 1.5rem;
-    color: white;
+    color: $color-white;
     opacity: 1;
   }
 }

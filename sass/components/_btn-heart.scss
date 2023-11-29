@@ -5,7 +5,7 @@
       position: relative;
       font-size: 25px;
       &::before {
-        background: black;
+        background: $color-black;
         background-clip: text;
         -webkit-background-clip: text;
         color: transparent;
@@ -19,7 +19,7 @@
       opacity: 0;
       &::before {
         font-size: 25px;
-        background: -webkit-linear-gradient(90deg, #9356dc, #ff79da);
+        background: -webkit-linear-gradient(90deg, $color-primary, $color-secondary);
         transition: 250ms;
         background-clip: text;
         -webkit-background-clip: text;
@@ -27,7 +27,7 @@
       }
       &:hover {
         font-size: 25px;
-        background: -webkit-linear-gradient(90deg, #9356dc, #ff79da);
+        background: -webkit-linear-gradient(90deg, $color-primary, $color-secondary);
         transition: 250ms;
         opacity: 1;
         background-clip: text;
@@ -43,7 +43,7 @@
       position: relative;
       font-size: 25px;
       &::before {
-        background: black;
+        background: $color-black;
         background-clip: text;
         -webkit-background-clip: text;
         color: transparent;
@@ -57,7 +57,7 @@
       opacity: 0;
       &::before {
         font-size: 25px;
-        background: -webkit-linear-gradient(90deg, #9356dc, #ff79da);
+        background: -webkit-linear-gradient(90deg, $color-primary, $color-secondary);
         transition: 250ms;
         background-clip: text;
         -webkit-background-clip: text;
@@ -65,7 +65,7 @@
       }
       &:hover {
         font-size: 25px;
-        background: -webkit-linear-gradient(90deg, #9356dc, #ff79da);
+        background: -webkit-linear-gradient(90deg, $color-primary, $color-secondary);
         transition: 250ms;
         opacity: 1;
         background-clip: text;
