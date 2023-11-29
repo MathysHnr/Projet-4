@@ -5,7 +5,7 @@
       position: relative;
       font-size: 25px;
       &::before {
-        background: $color-black;
+        background: black;
         background-clip: text;
         -webkit-background-clip: text;
         color: transparent;

@@ -39,7 +39,7 @@ body {
 }
 .restaurants__cardlike .restaurants__likehover::before {
   font-size: 25px;
-  background: -webkit-linear-gradient(90deg, #9356dc, #ff79da);
+  background: -webkit-linear-gradient(90deg, #9356DC, #FF79DA);
   transition: 250ms;
   background-clip: text;
   -webkit-background-clip: text;
@@ -47,7 +47,7 @@ body {
 }
 .restaurants__cardlike .restaurants__likehover:hover {
   font-size: 25px;
-  background: -webkit-linear-gradient(90deg, #9356dc, #ff79da);
+  background: -webkit-linear-gradient(90deg, #9356DC, #FF79DA);
   transition: 250ms;
   opacity: 1;
   background-clip: text;
@@ -64,7 +64,7 @@ body {
   font-size: 25px;
 }
 .menu__cardlike .menu__like::before {
-  background: black;
+  background: #000;
   background-clip: text;
   -webkit-background-clip: text;
   color: transparent;
@@ -78,7 +78,7 @@ body {
 }
 .menu__cardlike .menu__likehover::before {
   font-size: 25px;
-  background: -webkit-linear-gradient(90deg, #9356dc, #ff79da);
+  background: -webkit-linear-gradient(90deg, #9356DC, #FF79DA);
   transition: 250ms;
   background-clip: text;
   -webkit-background-clip: text;
@@ -86,7 +86,7 @@ body {
 }
 .menu__cardlike .menu__likehover:hover {
   font-size: 25px;
-  background: -webkit-linear-gradient(90deg, #9356dc, #ff79da);
+  background: -webkit-linear-gradient(90deg, #9356DC, #FF79DA);
   transition: 250ms;
   opacity: 1;
   background-clip: text;
@@ -97,8 +97,8 @@ body {
 .recherche__button {
   font-family: "Roboto";
   font-weight: 500;
-  background: linear-gradient(170deg, #ff79da, #9356dc);
-  color: white;
+  background: linear-gradient(170deg, #FF79DA, #9356DC);
+  color: #fff;
   font-size: 16px;
   padding: 15px;
   border-radius: 50px;
@@ -127,7 +127,7 @@ body {
   bottom: 0;
   left: 0;
   border-radius: 25px;
-  background: linear-gradient(0deg, rgba(255, 255, 255, 0.15) 0%, rgba(255, 255, 255, 0.15) 100%), linear-gradient(201deg, #9356dc -5.2%, #ff79da 110.74%);
+  background: linear-gradient(0deg, rgba(255, 255, 255, 0.15) 0%, rgba(255, 255, 255, 0.15) 100%), linear-gradient(201deg, #9356DC -5.2%, #FF79DA 110.74%);
   box-shadow: 0px 4px 15px 0px rgba(0, 0, 0, 0.35);
   opacity: 0;
   z-index: -1;
@@ -154,7 +154,7 @@ footer {
 }
 footer .footer__title {
   margin: 0;
-  color: white;
+  color: #fff;
   font-family: Shrikhand;
   font-size: 18px;
   font-style: normal;
@@ -163,7 +163,7 @@ footer .footer__title {
 }
 footer .footer__img {
   display: flex;
-  color: white;
+  color: #fff;
   width: 139px;
   height: 27px;
   padding-right: 0px;
@@ -186,7 +186,7 @@ footer .footer__linkicon {
   gap: 5px;
 }
 footer .footer__link__a {
-  color: white;
+  color: #fff;
 }
 
 .header {
@@ -219,7 +219,7 @@ footer .footer__link__a {
 
 .recherche {
   padding-bottom: 40px;
-  background-color: #f6f6f6;
+  background-color: #fff;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -278,7 +278,7 @@ footer .footer__link__a {
 .fonctionnement .fonctionnement__choix {
   display: flex;
   flex-direction: row;
-  background-color: white;
+  background-color: #fff;
   margin: 1rem;
   padding: 1rem;
   box-shadow: 4px 4px 2px lightgrey;
@@ -295,8 +295,8 @@ footer .footer__link__a {
 }
 .fonctionnement .fonctionnement__numtxt {
   border-radius: 50%;
-  background-color: #9356dc;
-  color: white;
+  background-color: #9356DC;
+  color: #fff;
   position: relative;
   right: 28px;
   padding: 2px 10px;
@@ -324,14 +324,14 @@ footer .footer__link__a {
   line-height: normal;
   gap: 15px;
   padding-top: 80px;
-  background-color: #f6f6f6;
+  background-color: #fff;
 }
 @media screen and (min-width: 1024px) {
   .restaurants {
     font-family: Roboto;
     font-style: normal;
     line-height: normal;
-    background-color: #f6f6f6;
+    background-color: #fff;
     padding: 2rem 1rem;
     display: block;
   }
@@ -372,7 +372,7 @@ footer .footer__link__a {
 }
 .restaurants .restaurants__wrap .restaurants__cardimg__newcard {
   font-weight: bold;
-  background-color: #99e2d0;
+  background-color: #99E2D0;
   color: #1a8a68;
   width: 100px;
   display: flex;
@@ -416,7 +416,7 @@ footer .footer__link__a {
 
 .menu {
   border-radius: 40px 40px 0 0;
-  background-color: #f6f6f6;
+  background-color: #fff;
   position: relative;
   margin-top: -50px;
   padding: 5px 20px;
@@ -464,7 +464,7 @@ footer .footer__link__a {
   content: "";
   width: 40px;
   height: 3px;
-  background-color: #99e2d0;
+  background-color: #99E2D0;
   position: absolute;
   left: 0;
   top: 24px;
@@ -473,7 +473,7 @@ footer .footer__link__a {
   display: flex;
   justify-content: space-between;
   border-radius: 15.043px;
-  background: var(--White, #fff);
+  background: #fff;
   box-shadow: 0px 4.01149px 15.0431px 0px rgba(0, 0, 0, 0.1);
   align-items: flex-end;
   padding: 15px;
@@ -518,7 +518,7 @@ footer .footer__link__a {
 }
 .menu .menu__cardorder {
   position: absolute;
-  background-color: #99e2d0;
+  background-color: #99E2D0;
   top: 0;
   bottom: 0;
   right: 0;
@@ -533,7 +533,7 @@ footer .footer__link__a {
   left: 20px;
   top: 25px;
   font-size: 1.5rem;
-  color: white;
+  color: #fff;
   opacity: 1;
 }
 
@@ -633,17 +633,17 @@ footer .footer__link__a {
 }
 
 .loader__item--2 {
-  background-color: #ff79da;
+  background-color: #FF79DA;
   animation-delay: 0.25s;
 }
 
 .loader__item--3 {
-  background-color: #99e2d0;
+  background-color: #99E2D0;
   animation-delay: 0.5s;
 }
 
 .loader__item--1 {
-  background-color: #9356dc;
+  background-color: #9356DC;
 }
 
 nav {
@@ -655,7 +655,7 @@ nav {
   align-items: center;
   gap: 17px;
   margin-top: 5px;
-  background-color: #eaeaea;
+  background-color: #fff;
 }
 nav .nav__localisation {
   font-family: "Roboto";
