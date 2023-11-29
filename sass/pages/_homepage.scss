@@ -3,7 +3,7 @@
       padding-bottom: 0;
     }
     padding-bottom: 40px;
-    background-color: $color-white;
+    background-color: $color-grey_bg;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -33,6 +33,7 @@
 .fonctionnement {
     display: flex;
     flex-direction: column;
+    padding-top: 30px;
     @media screen and (min-width: 1024px) {
       padding: 2rem 1rem;
       display: block;
@@ -95,15 +96,16 @@
     font-style: normal;
     line-height: normal;
     gap: 15px;
-    padding-top: 80px;
-    background-color: $color-white;
+    padding-top: 40px;
+    margin-top: 80px;
+    background-color: $color-grey_bg;
     @media screen and (min-width: 1024px) {
       font-family: Roboto;
       font-style: normal;
       line-height: normal;
-      background-color: $color-white;
       padding: 2rem 1rem;
       display: block;
+      margin: 0;
     }
     .restaurants__grid {
       @media screen and (min-width: 1024px) {
