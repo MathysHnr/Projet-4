@@ -539,6 +539,18 @@ footer .footer__link__a {
   opacity: 1;
 }
 
+.Commander {
+  padding-bottom: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-family: "Roboto";
+  font-style: normal;
+  line-height: normal;
+}
+
 .menu__platcard:nth-child(1) {
   -webkit-animation-delay: 0.3s;
   animation-delay: 0.3s;
