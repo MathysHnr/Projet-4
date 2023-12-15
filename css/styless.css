@@ -258,6 +258,7 @@ footer .footer__link__a {
   display: flex;
   flex-direction: column;
   padding-top: 30px;
+  padding-left: 15px;
 }
 @media screen and (min-width: 1024px) {
   .fonctionnement {
@@ -348,6 +349,7 @@ footer .footer__link__a {
   color: #000;
   font-size: 24px;
   font-weight: 700;
+  padding-left: 15px;
 }
 .restaurants .restaurants__wrap {
   gap: 15px;
@@ -418,7 +420,7 @@ footer .footer__link__a {
 
 .menu {
   border-radius: 40px 40px 0 0;
-  background-color: #fff;
+  background-color: #F6F6F6;
   position: relative;
   margin-top: -50px;
   padding: 5px 20px;
