@@ -280,7 +280,7 @@ footer .footer__link__a {
 .fonctionnement .fonctionnement__choix {
   display: flex;
   flex-direction: row;
-  background-color: #fff;
+  background-color: #F6F6F6;
   margin: 1rem;
   padding: 1rem;
   box-shadow: 4px 4px 2px lightgrey;
